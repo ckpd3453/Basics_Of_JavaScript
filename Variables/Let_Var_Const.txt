@@ -1,0 +1,34 @@
+/************************************  Let ************************************************/
+
+- let Variables cannot be Redeclared.
+
+- let Variables must be Declared before use.
+
+- let Variables have Block Scope.
+
+
+/************************************  Var ************************************************/
+
+- Variables defined with var can be Redeclared.
+
+- Variables defined with var can be used before Declared.
+
+- Variables defined with var have Block Scope.
+
+
+/************************************  Const ************************************************/
+
+- Variables defined with const cannot be Redeclared.
+
+- Variables defined with const cannot be Reassigned.
+
+- Variables defined with const have Block Scope.
+
+We can NOT:
+- Reassign a constant value
+- Reassign a constant array
+- Reassign a constant object
+
+But We CAN:
+- Change the elements of constant array
+- Change the properties of constant object

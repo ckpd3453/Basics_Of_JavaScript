@@ -1,0 +1,1 @@
+Hoisting : A variable can be used before it has been declared.

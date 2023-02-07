@@ -1,0 +1,26 @@
+************************************************************JavaScript Functions******************************************************************
+
+- A JavaScript function is a block of code designed to perform a particular task.
+
+- A JavaScript function is executed when "something" invokes it (calls it).
+
+
+
+There are different ways to declare a funtion:-
+
+a) Traditional Way: 
+   In this a JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+
+Function names can contain letters, digits, underscores, and dollar signs.
+
+The parentheses may include parameter names separated by commas:
+(parameter1, parameter2, ...)
+
+The code to be executed, by the function, is placed inside curly brackets: {} 
+
+b) Arrow Funtion:
+    In this JavaScript function, we have a anonymous(function without name) function which is assigned to a variable by which one can invoke 
+    the function using variable name. 
+
+c) Callback Function:
+    In this JavaScript function, we call a function inside a function as a parameter.

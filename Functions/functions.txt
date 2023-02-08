@@ -23,4 +23,8 @@ b) Arrow Funtion:
     the function using variable name. 
 
 c) Callback Function:
-    In this JavaScript function, we call a function inside a function as a parameter.
+   - A callback is a function passed as an argument to another function
+
+   - This technique allows a function to call another function
+
+   - A callback function can run after another function has finished

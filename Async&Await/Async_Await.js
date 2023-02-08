@@ -1,14 +1,14 @@
 /**Example-1**/
-// const distance = async () => {
-//   const myPromise = new Promise(() => {
-//     setTimeout(() => {
-//       console.log("Distance : ", 5);
-//     }, 3000);
-//   });
-//   console.log(await myPromise);
-// };
+const distance = async () => {
+  const myPromise = new Promise(() => {
+    setTimeout(() => {
+      console.log("Distance : ", 5);
+    }, 3000);
+  });
+  console.log(await myPromise);
+};
 
-// distance();
+distance();
 
 /**Example-2**/
 

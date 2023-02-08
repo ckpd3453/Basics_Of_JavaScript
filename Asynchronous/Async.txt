@@ -1,0 +1,4 @@
+/*****************************************************Asynchronous***********************************************************/
+ 
+  - Functions running in parallel with other functions are called asynchronous
+  - callbacks are most often used with asynchronous functions.

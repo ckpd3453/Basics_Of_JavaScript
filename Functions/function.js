@@ -12,6 +12,6 @@ run();
 
 //Callback-Funtion
 const learning = (a) => {
-  a();
+  a("CallBack-Function");
 };
-learning(() => console.log("CallBack-Function"));
+learning((string) => console.log(string));

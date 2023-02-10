@@ -1,6 +1,13 @@
 const friend = {
-  friendName: function (city) {
-    console.log(this.firstName, this.lastName, "is from", city);
+  friendName: function (city, occupation) {
+    console.log(
+      this.firstName,
+      this.lastName,
+      "living in",
+      city,
+      "is a",
+      occupation
+    );
   },
 };
 
@@ -14,4 +21,4 @@ const friend2 = {
   lastName: "Gupta",
 };
 
-friend.friendName.call(friend2, "Ranchi"); // Call Method with Argument.
+friend.friendName.call(friend2, "Ranchi", "Doctor"); // Call Method with Argument seperately.

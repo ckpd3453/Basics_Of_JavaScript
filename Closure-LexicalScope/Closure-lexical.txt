@@ -1,0 +1,3 @@
+- A closure in JavaScript is a feature where an inner function has access to the outer (enclosing) function's variables — a scope chain. 
+- Closures in Javascript are created along with the function. 
+- Lexical scoping is the environment that holds the variables of the current scope as well as the outer scope.
